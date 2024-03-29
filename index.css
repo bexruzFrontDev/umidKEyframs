@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    
+        overflow: hidden;
+        display: flex;
+        gap: 100px;
+        margin-top: 300px;
+        margin-left: 300px;
+    
+}
+.umid { 
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: umid;
+}
+@keyframes umid {
+    0% {
+        width: 200px;
+        height: 200px;
+        transform: rotate(100deg);
+    }
+    
+    50% {
+        width: 200px;
+        height: 200px;
+        transform: rotate(1000deg);
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        transform: rotate(1500deg);
+    }
+}
+
+.umid1{
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        animation-duration: 2s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-name: umid1;
+    
+}
+@keyframes umid1 {
+    0% {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+    
+    50% {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transform: scale(1.3);
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transform: scale(1.5);
+    }
+}
+.umid2{
+    
+        width: 100px;
+        height: 350px;
+        background-color: blue;
+        position: relative;
+        animation-duration: 2s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-name: umid2;
+    
+}
+@keyframes umid2 {
+    0% {
+        width: 100px;
+        height: 350px;
+        background-color: blue;
+    }
+    
+    50% {
+        width: 100px;
+        height: 350px;
+        background-color: red;
+    }
+    100% {
+        width: 100px;
+        height: 350px;
+        background-color: aqua;
+    }
+}
+.umid3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 118, 20);
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: umid3   ;
+}
+@keyframes umid3 {
+    0% {
+        transform: rotate(20deg);
+    }
+    
+    50% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(-20deg);
+    } 
+}
